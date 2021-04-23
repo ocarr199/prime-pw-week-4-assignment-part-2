@@ -1,34 +1,46 @@
-
-body{
+body {
   padding: 0;
-  margin:0;
+  margin: 0;
 }
-h1{
+
+h1 {
   margin: 0;
   padding: 15px;
 }
 
-header{
+.myShoes {
+  margin-top: 0;
+}
+
+header {
   background-color: #02475e;
   color: #f3bda1;
-    text-align:center;
-
-    padding: 0;
-}
-.shoes{
-  text-align:center;
-margin: 3%;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
 }
 
-.mySneaker{
+.shoes {
+  height; 100vh;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+padding: 25vh 0 25vh ;
+  background: radial-gradient(#fefecc,#f3bda1 ,#687980, #02475e)
+}
+
+.mySneaker {
   height: 300px;
   margin: 5%;
 }
-.info{
+
+.info {
   background-color: #02475e;
   color: #f3bda1;
-    text-align:center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  position: fixed;
+
+  width: 100%;
 }
