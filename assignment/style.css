@@ -1,8 +1,34 @@
-header{
-  background-color: blue;
+
+body{
+  padding: 0;
+  margin:0;
+}
+h1{
+  margin: 0;
+  padding: 15px;
 }
 
+header{
+  background-color: #02475e;
+  color: #f3bda1;
+    text-align:center;
+
+    padding: 0;
+}
+.shoes{
+  text-align:center;
+margin: 3%;
+}
+
+.mySneaker{
+  height: 300px;
+  margin: 5%;
+}
 .info{
-  background-color: red;
-  color: Green;
+  background-color: #02475e;
+  color: #f3bda1;
+    text-align:center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
